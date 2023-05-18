@@ -1,25 +1,3 @@
-// o que são variáveis
-
-// let nome = 'Bertoldo'
-// const idade = 33
-// nome = 'Rafael'
-
-// funções
-
-// function mostraNome() {
-//   let nome = 'Rafael'
-
-//   return nome
-// }
-
-// let nomeVindoDaFuncao = mostraNome()
-
-// loop e repetições
-
-// for(let indice = 0; indice < 10; indice + 1) {
-//   console.log(indice)
-// }
-
 async function renderizaCards() {
   const lista = document.querySelector('#cardList')
 
