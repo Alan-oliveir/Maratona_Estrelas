@@ -7,7 +7,7 @@
 /*HEADER*/
 header {
   height: 519px;
-  background-image: url("../assets/header-bg.png");
+  background-image: url("../images/header-bg.png");
 }
 
 .header-position {
@@ -123,7 +123,7 @@ nav {
   border-radius: 5px;
   display: flex;
   flex-direction: column;
-  background-image: url("../assets/card-bg.png");
+  background-image: url("../images/card-bg.png");
   backface-visibility: hidden;
 }
 
@@ -153,7 +153,7 @@ nav {
 
 footer {
   height: 186px;
-  background-image: url("../assets/footer-bg.png");
+  background-image: url("../images/footer-bg.png");
   display: flex;
   justify-content: center;
   align-items: center;
