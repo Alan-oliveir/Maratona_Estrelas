@@ -20,7 +20,7 @@
 
 ---
 ## Layout 
-![screenshot](https://github.com/Alan-oliveir/Maratona_Estrelas/blob/main/images/screenshot.png)
+![screenshot](https://github.com/Alan-oliveir/Maratona_Estrelas/blob/main/images/screenshot.jpg)
 
 ## Tecnologias utilizadas
 
@@ -47,6 +47,8 @@
 ### Estrutura de arquivos
 
 - /documents
+- /data
+  - personagens_simulados.json 
 - /images
 - /script
   - script.js
