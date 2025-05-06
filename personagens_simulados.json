@@ -1,0 +1,54 @@
+{
+    "results": [
+      {
+        "name": "Luke Skywalker",
+        "birth_year": "19BBY",
+        "homeworld": "Tatooine"
+      },
+      {
+        "name": "C-3PO",
+        "birth_year": "112BBY",
+        "homeworld": "Tatooine"
+      },
+      {
+        "name": "R2-D2",
+        "birth_year": "33BBY",
+        "homeworld": "Naboo"
+      },
+      {
+        "name": "Darth Vader",
+        "birth_year": "41.9BBY",
+        "homeworld": "Tatooine"
+      },
+      {
+        "name": "Leia Organa",
+        "birth_year": "19BBY",
+        "homeworld": "Alderaan"
+      },
+      {
+        "name": "Owen Lars",
+        "birth_year": "52BBY",
+        "homeworld": "Tatooine"
+      },
+      {
+        "name": "Beru Whitesun lars",
+        "birth_year": "47BBY",
+        "homeworld": "Tatooine"
+      },
+      {
+        "name": "R5-D4",
+        "birth_year": "unknown",
+        "homeworld": "Tatooine"
+      },
+      {
+        "name": "Biggs Darklighter",
+        "birth_year": "24BBY",
+        "homeworld": "Tatooine"
+      },
+      {
+        "name": "Obi-Wan Kenobi",
+        "birth_year": "57BBY",
+        "homeworld": "Stewjon"
+      }
+    ]
+  }
