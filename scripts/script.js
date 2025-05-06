@@ -1,7 +1,7 @@
 // Função para buscar dados simulados do arquivo JSON
 async function buscarDadosSimulados() {
   try {
-    const response = await fetch("./personagens_simulados.json");
+    const response = await fetch("./dados/personagens_simulados.json");
     if (!response.ok) {
       throw new Error(`Erro ao carregar dados simulados: ${response.status}`);
     }

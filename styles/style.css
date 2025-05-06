@@ -55,33 +55,27 @@ nav {
   cursor: pointer;
 }
 
-/*CARD LIST*/
+/*CARD LIST - MODIFICADO*/
 #cardList {
-  height: 600px;
-  width: 60vw;
+  width: 80vw;
   margin: 60px auto;
   overflow: auto;
-  gap: 20px;
+  gap: 15px;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
 }
 
-#cardList::-webkit-scrollbar {
-  border-radius: 20px;
-  background-color: var(--color-grey-3);
-  border: 3px solid var(--color-grey-2);
-}
-
-/* CARD*/
-
+/* CARD - MODIFICADO */
 .card {
   height: 220px;
-  width: 360px;
-  border-radius: 5px;
+  width: 320px;
   transform-style: preserve-3d;
-  border: 4px solid transparent;
+  margin-bottom: 15px;
+  position: relative;
+  cursor: pointer;
+  transition: transform 0.6s;
 }
 
 .flip {
@@ -92,43 +86,48 @@ nav {
   height: 100%;
   width: 100%;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-direction: column;
   position: absolute;
+  backface-visibility: hidden;
+  border-radius: 5px;
+  overflow: hidden;
+  border: 2px solid var(--color-primary);
 }
 
 .titleCard {
   background-color: var(--color-primary);
-  height: 46px;
+  height: 40px;
   width: 100%;
-  border-radius: 5px;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 400;
-  line-height: 23px;
+  line-height: 40px;
   text-align: center;
-  padding: 10px;
+  padding: 0;
 }
 
 .cardData {
-  height: 174px;
+  flex: 1;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 20px;
+  gap: 15px;
+  padding: 10px;
 }
 
 .front,
 .back {
-  border-radius: 5px;
-  display: flex;
-  flex-direction: column;
   background-image: url("../images/card-bg.png");
-  backface-visibility: hidden;
+  background-size: cover;
 }
 
 .front {
   transform: rotateY(180deg);
+}
+
+.back img {
+  max-height: 130px;
+  margin: auto;
 }
 
 .cardData > li,
@@ -136,21 +135,20 @@ nav {
 .cardData > ul > li {
   width: 160px;
   color: var(--color-primary);
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 700;
-  line-height: 24px;
+  line-height: 20px;
   text-align: left;
 }
 
 .front > p {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 400;
-  line-height: 23px;
+  line-height: 21px;
   text-align: left;
 }
 
 /* FOOTER */
-
 footer {
   height: 186px;
   background-image: url("../images/footer-bg.png");
@@ -175,13 +173,11 @@ footer {
     margin: 30px 0 30px 0;
   }
 
-  ul {
-    flex-direction: column;
-    gap: 20px;
+  #cardList {
+    width: 90vw;
   }
 
-  .cardList {
-    display: flex;
-    flex-wrap: nowrap;
+  .card {
+    width: 90%;
   }
 }
